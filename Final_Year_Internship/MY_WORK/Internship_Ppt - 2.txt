@@ -1,0 +1,116 @@
+------------------------Internship Presentation--------------------------------------------------
+
+--An internship is an opportunity to test drive a career without making any serious commitments. It provides you with experiences, lessons, and the tools you’ll need to get a full-time gig in the future.
+
+-------------Slide 1----------------------
+-->Dive into presentation 1
+About Ericsson
+-->Ericsson, is a Swedish Multinational Networking and Telecommunications Company Headquartered in Stockholm. -->The company sells Infrastructure, Software, and Services in Information and Communications Technology for    Telecommunications Service providers and Enterprises, including, among others, 3G, 4G, and 5G equipment, and    Internet Protocol (IP) and Optical Transport Systems.
+-->Ericsson has its Market Areas in North America, Europe, Latin America, Middle East, Africa, South East Asia,    North East Asia, Oceania and India.
+-->Ericsson’s Research and Development addresses several facets of Network Architecture, Wireless Access    Networks, Radio Access Technologies, Broadband Technologies,  Multimedia Technologies, Software Services and    Security.
+
+About Role
+-->IT Software Developer Intern(R & D)
+   6 moths internship as this role, responsible to complete the task assigned by team lead 
+
+About Project : EWP
+-->Which provides the technology, tools and regulatory supports to the service providers who are providing    mobile financial services to their customers.
+-->Ericsson Wallet Platform is feature rich, scalable, and highly secure platform that enables launch and delivery of Business to Consumer (B2C), Consumer to Business (C2B) and Consumer to Consumer (C2C) mobile financial services.
+-->Ericsson Wallet Platform allows users to store, transfer and withdraw money, paying merchants and utility providers  as well as using financial services like saving and loan
+
+--------------------------------------------------------------------------------------------------------------
+
+--------Slide3----------------------------------------------
+-->Agenda
+-----------------------------------------------------------------------
+
+-------------Slide4---------------------------------------------------------
+-->Theoritical Concepts background.
+>>BUCs
+BUC's means Business Use Cases,
+As EWP is an Existing Project BUC's are like new FEATUREs or Requirements that can be added to EWP which helps Customers and Business...
+For the BUC creation 
+first the requirement which are logged by the customers or the members of project are analysed by the Access Modue(AM) team then for all the requirement that are logged a importment or good requirement was studied and then the BUC id id generated then it is given for the development team.
+--explain flow of BUC
+>>TRs
+TR means trobule Report,
+the project may have some trouble so this trobules are logged in the jira by the trobule facer as TR then this TR are picked by the DT team and the DT will solve or answer the TR.
+--Explain flow of TR.
+-------------------------------------------------------------------------------------
+
+------------------------------Slide5---------------------------------------------------------
+
+--->Technologies Used----------------------------------------------------------------------------------
+>>Java
+---Java is the programming language and development platform. It reduces costs, shortens development timeframes, drives innovation, and improves application services.Java is faster at runtime and easier to debug.
+>>Jenkins
+--Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software.
+--Jenkins provides hundreds of plugins to support building, deploying and automating any project.
+--Jenkins is a self-contained Java-based program, ready to run out-of-the-box, with packages for Windows, Linux, macOS and other Unix-like operating systems.Jenkins can be easily set up and configured via its web interface.
+>>Kubernetes
+--Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.
+--It groups containers that make up an application into logical units for easy management and discovery.
+>>Oracle
+--An Oracle Database (aka Oracle RDBMS) is a collection of data organized by type with relationships being maintained between the different types.
+--It is a database commonly used for running online transaction processing (OLTP), data warehousing (DW) and mixed (OLTP & DW) database workloads.
+>>Helm
+--Helm is the best way to find, share, and use software built for Kubernetes. It is the package manager for kubernetes.
+--Helm Charts help you define, install, and upgrade even the most complex Kubernetes application.
+>>Jira
+--Jira is a proprietary issue tracking product developed by Atlassian that allows bug tracking and agile project management.
+--Jira helps teams plan, assign, track, report, and manage work and brings teams together for everything from agile software development and customer support to start-ups and enterprises.
+>>Citrix
+--Citrix Systems, Inc. is an American multinational cloud computing and virtualization technology company that provides server, application and desktop virtualization, networking, software as a service (SaaS), and cloud computing technologies.
+--Citrix Virtual Apps and Desktops is used to publish a whole virtual machine (VM) from a hypervisor to remote client devices. A published VM means every user gets a unique virtual machine of the OS and desktop.
+>>Gerrit & Gitlab
+--Gerrit is a free, web-based team code collaboration tool. Software developers in a team can review each other's modifications on their source code using a Web browser and approve or reject those changes. 
+--Gerrit makes reviews easier by showing changes in a side-by-side display, and allowing inline comments to be added by any reviewer.
+--Gerrit simplifies Git based project maintainership by permitting any authorized user to submit changes to the master Git repository, rather than requiring all approved changes to be merged in by hand by the project maintainer.
+--GitLab Inc. is an open-core company that provides GitLab, a DevOps software package that combines the ability to develop, secure, and operate software in a single application.
+--GitLab helps you automate the builds, integration, and verification of your code. With SAST, DAST, code quality analysis, plus pipelines that enable concurrent testing and parallel execution, your teams get quick insights about every commit so they can deliver higher quality code faster.
+>>Gradle
+--Gradle is an open-source build automation tool focused on flexibility and performance.
+--It controls the development process in the tasks of compilation and packaging to testing, deployment, and publishing.
+>>Confluence
+--Confluence is a remote-friendly team workspace where knowledge and collaboration meet.
+--it is used to build a knowledge base for documentation & product requirements.
+>>Kubernetes-Lens
+--Lens is the only IDE you’ll ever need to take control of your Kubernetes clusters.
+--Lens IDE provides the full situational awareness for everything that runs in Kubernetes.
+--Kubernetes Lens also integrates with Helm, making it easy to install and manage Helm charts and releases in Kubernetes.
+>>Micro Services
+--Microservices - also known as the microservice architecture - is an architectural style that structures an application as a collection of services that are Highly maintainable and 
+testable, Loosely coupled, Independently deployable, Organized around business capabilities
+--The microservice architecture enables the rapid, frequent and reliable delivery of large, complex applications. It also enables an organization to evolve its technology stack.
+>>3PP/2PP
+--3PP means Third party products that means the software developed outside of ericsson, this are used in project to have a enchancement and user-eco atmosphere.
+>>MHWeb
+--MHWeb is the internal tool at the ericsson which is dedicated to Trouble Reports in various projects at Ericsson, this help everyone to keep track on particular issue at Ericsson.
+>>Gradle Enterprise
+--Gradle Enterprise leverages acceleration technologies to speed up the software build and test process and data analytics to make troubleshooting more efficient. 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------Slide 6------------------------------------------------------------
+---------------------------------------------------Work Done---------------------------------------------------------------------------------------
+>>Gone Through Onboarding Material
+--this material is to get overview of the project EWP technologies used and how the project is mantained.
+>>Web and Lwac Kata Exercises
+--kata exercise are coding exercises to get the code overview of the ewp by implementing a sample ewp like platform. 
+>>Upgrading 3PP used in EWP
+>>Unit Test(UT) for the BUC 18066
+----the objective of the BUC is to make additional data available in the RDS database for integrated third-party downstream systems like AML and fraud management
+>>Basic Test(BT) for the BUC 18066 backporting
+>>Checking the pipelines for Dev branches and retriggering them to get them green.
+>>Code changes testing
+>>Involved in Answering the TR HZ95086
+-----External log files not written when persistent.enabled: false is set
+>>Involved in Answer TR HZ95663
+>>Worked on the BUC – 21535 Auto CPI for External Logging
+>>Involved in Answering TR IA13214
+
+
+
+
+
+
